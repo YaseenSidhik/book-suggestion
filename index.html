@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Delius&family=Literata:wght@400;700&display=swap" rel="stylesheet">
+   <!-- Css -->
+    <link rel="stylesheet" href="style.css">
+    <title>BookSurpMe</title>
+</head>
+<body>
+    <header>
+        <h1>BookSurpMe</h1>
+        <h2>Discover your next great read</h2>
+    </header>
+    <section class="hero">
+        <h2 class="hero-caption">Discover Random Reads with BookSurpMe</h2>
+        <p class="hero-desc">Let us surprise you with a new book recommendation every time you visit our site. Who knows? Your next favorite read might be just a <span class="clk">click away!</span></p>
+    </section>
+    <section class="conditions">
+        <div class="condition-container">
+         <div>   
+        <label for="language">Choose a language</label>
+        <select name="languages" id="language">
+            <option value="">Choose a language</option>
+            <option value="english">English</option>
+            <option value="Malayalam">Malayalam</option>
+        </select>
+         </div>
+         <div>
+        <label for="genre">Choose a genre</label>
+        <select name="genre" id="genre">
+            <option value="">Choose a genre</option>
+            <option value="fantasy">Fantasy</option>
+            <option value="thriller">Thriller</option>
+        </select>
+         </div>
+        </div>
+        <button class="btn" id="generate-btn">Generate</button>
+    </section>
+    <section class="target-location" id="target">
+           
+    </section>
+    <script src="main.js" type="module"></script>
+</body>
+</html>
