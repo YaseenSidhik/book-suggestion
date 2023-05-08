@@ -106,4 +106,5 @@ select
 {
     height: 250px;
     width: 60%;
+    object-fit: contain;
 }
